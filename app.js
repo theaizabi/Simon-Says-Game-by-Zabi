@@ -68,9 +68,6 @@ for (btn of allBtns) {
     btn.addEventListener("click", btnPress);
 }
 
-let h3 = document.querySelector("h3");
-h3.innerText = `Your High Score was ${level}`
-
 function reset() {
     started = false;
     gameSeq = [];
